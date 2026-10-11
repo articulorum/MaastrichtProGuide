@@ -1,0 +1,23 @@
+<div style="margin-bottom: 25px;">
+    <h2 style="color: #fff; margin-bottom: 8px; font-size: 2rem;">The Complete 3500+ Locations Database</h2>
+    <p style="color: var(--text-muted);">Voorproefje van de actuele locaties. Klik op een zaak voor foto, reservering, navigatie en WhatsApp deeloptie.</p>
+</div>
+
+<div class="controls-wrapper" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:15px; margin-bottom:25px;">
+    <input type="text" class="search-box" id="searchInput" placeholder="Zoek in de openbare locaties..." onkeyup="filterDatabase()">
+    <div class="filter-buttons" style="display:flex; gap:10px; flex-wrap:wrap;">
+        <button class="utility-btn active" onclick="setFilter('all', this)">Alles (Preview)</button>
+        <button class="utility-btn" onclick="setFilter('Gastronomy', this)">Gastronomy</button>
+        <button class="utility-btn" onclick="setFilter('Culture', this)">Culture</button>
+        <button class="utility-btn" onclick="setFilter('Boutique', this)">Boutiques</button>
+        <button class="utility-btn" onclick="setFilter('Hotspot', this)">Hotspots</button>
+    </div>
+</div>
+
+<div class="directory-grid" id="directoryGrid"></div>
+
+<div class="paywall-banner">
+    <h3>🔒 Ontgrendel Alle Resterende Locaties (3.500+)</h3>
+    <p>U bekijkt momenteel de exclusieve preview (items 1 t/m 5). De volledige database van 3.500+ actuele high-end locaties is direct beschikbaar.</p>
+    <a href="https://www.draft2digital.com" target="_blank" class="btn-gold" style="max-width: 380px; margin: 0 auto;">Koop het E-Book (€1.99) om Alles te Ontgrendelen</a>
+</div>
